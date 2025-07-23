@@ -1,5 +1,3 @@
-install.packages("class", "randomForest", "caret")
-install.packages("caret", dependencies = c("Depends", "Suggests"))
 library("tidyverse")
 library("vegan")
 library("ggplot2")
