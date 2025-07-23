@@ -4,7 +4,7 @@ Welcome to the repository for the Latin American Dysbiosis Index (LADI) project 
 ### Project Summary
 
 This project investigates how shifts in lifestyle and diet influence gut microbiome composition by leveraging:
-- Publicly available microbiome sequencing data (saMBA)
+- Publicly available microbiome sequencing data (saMBA (South American Microbiome Archive))
 - Random forest and nearest centroid classifiers (NCC)
 - Dimensionality reduction and diversity metrics (e.g., Bray-Curtis)
 - A novel Industrialization Index for visualization and diagnostic insights
