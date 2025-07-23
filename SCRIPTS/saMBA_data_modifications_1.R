@@ -1,17 +1,8 @@
-install.packages("tidyverse", "vegan", "ggplot2", "plotly")
-install.packages("BiocManager")
-BiocManager::install("sva") 
-
 library("tidyverse")
 library("vegan")
 library("ggplot2")
 library("plotly")
 library("sva")
-
-# note about accessing charts
-# [left of comma is rows, right of comma is columns]
-# [,] this accesses all rows & columns
-# [,column 1] accesses all rows but only column 1, and same rule works for rows or certain columns
 
 
 # Load data
@@ -65,10 +56,6 @@ count_table_clean <- count_table_filtered[taxa_sums > 0, ]
 sample_depths <- colSums(count_table_clean) # depth of 10026 to 2198595
 
 plot_data <- data.frame(sample = names(sample_depths), depth = sample_depths)
-
-#ggplot(plot_data,
-  #     aes(x = depth)) +
-  #     geom_histogram(bins = 25, fill = "green")
 
 # saves count_table file with raw counts
 count_table_raw <- count_table_clean
