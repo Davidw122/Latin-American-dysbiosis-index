@@ -27,7 +27,7 @@ Inspired by personal experiences and cultural heritage, this project explores ho
 
 4. Random Forest Classification
 - Trained a 1000-tree model to distinguish industrialization classes
-- Achieved ~79.5% accuracy on test set
+- Achieved ~77.5% accuracy on test set
 - Identified top microbial genera contributing to classification
 
 4. Nearest Centroid Classification (NCC)
