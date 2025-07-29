@@ -45,9 +45,9 @@ Inspired by personal experiences and cultural heritage, this project explores ho
 - Top genera contributing to industrialization-related differences include Prevotella, Bacteroides, and Ruminococcus species.
 
 ### Next Steps
-Refine index to account for specific regional dietary practices
-Interview Latin American individuals about traditional food and health practices
-Build a demo web interface for the Dysbiosis Index
+- Refine index to account for specific regional dietary practices
+- Interview Latin American individuals about traditional food and health practices
+- Build a demo web interface for the Dysbiosis Index
 
 ### About Me
 I’m a high school researcher passionate about blending STEM with cultural preservation. I built this project using R, public datasets, and a design-thinking approach to computational biology.
