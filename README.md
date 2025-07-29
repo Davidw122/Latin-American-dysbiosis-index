@@ -25,7 +25,7 @@ Inspired by personal experiences and cultural heritage, this project explores ho
 2. Industrialization Labeling
 - Samples were categorized into "More Industrialized" and "Less Industrialized" based on the metadata's broad_scale_environmental_context.
 
-4. Random Forest Classification
+3. Random Forest Classification
 - Trained a 1000-tree model to distinguish industrialization classes
 - Achieved ~77.5% accuracy on test set
 - Identified top microbial genera contributing to classification
